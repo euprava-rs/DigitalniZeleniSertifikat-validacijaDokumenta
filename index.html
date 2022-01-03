@@ -4,12 +4,97 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>eUpravat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, max-scale=1, user-scalable=no">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Euprava</title>
 </head>
 
-<body>
-    <h1>Bla</h1>
+<body class="theme-default">
+    <header>
+        <div class="container">
+            <h1><a href="/">euprava.gov.rs</a></h1>
+            <a href="" class="mobile-handle"></a>
+            <div class="my-egov narrow">
+                <a href="" class="">Моја еУправа</a>
+                <ul>
+                    <li><a href="/ssologin" target="_self">Пријава</a></li>
+                    <li><a href="/ssologinpro" target="_self">Пријава Про</a></li>
+                    <li><a href="https://eid.gov.rs" target="_blank">Регистрација</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+    <section class="breadcrumbs">
+        <div class="container">
+            <ul>
+                <li><a href="/">Насловна</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="page-content contact">
+        <div class="container">
+            <h2 class="to-center main-text">Дигитални зелени сертификат</h2>
+            <p class="to-center h3 small-text">Потврда о извршеној вакцинацији против COVID-19 и резултатима тестирања
+            </p>
+            <h2 class="to-center main-text">Digital green certificate</h2>
+            <p class="to-center h3 small-text">Certificate of vaccination against COVID-19 and test results</p>
+            <div class="main-container">
+                <div class="custom-container" style="background-color: green">
+                    <div class="info-container">
+                        <div class="container-row">
+                            <label class="label-info">Име / Name:</label><span class="span-info">SER***</span>
+                        </div>
+                        <div class="container-row">
+                            <label class="label-info">Презиме / Surname:</label><span class="span-info">KUB**</span>
+                        </div>
+                        <div class="container-double-row">
+                            <label class="label-info">Датум рођења / Date of birth:</label><span
+                                class="span-infoBD">02-04-1999</span>
+                        </div>
+                        <div class="container-row">
+                            <label class="label-info">Статус / Status:</label><span class="span-info">зелено /
+                                green</span><img class="imgType" src="./img/passed.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <label id="documentValidityId"><b>Документ је валидан. / Document is valid.</b></label>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="foot-content">
+                <div class="site-title">
+                    <h3>euprava.gov.rs</h3>
+                    <p>Портал еУправа Републике Србије</p>
+                </div>
+                <div class="copy">Веб презентација је лиценцирана под условима лиценце
+                    <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/rs/" target="_blank"> Creative
+                        Commons</a> Ауторство-Некомерцијално-Без прераде 3.0 Србија. Веб пројекат <a
+                        href="https://www.ite.gov.rs/" target="_blank">ite.gov.rs</a>
+                </div>
+                <ul class="nav">
+                    <li><a href="/uslovi_koriscenja" target="_blank">Услови коришћења</a></li>
+                    <li class="emph"><a href="">Подешавања</a></li>
+                </ul>
+            </div>
+            <ul class="foot-social">
+                <li class="in"><a href="https://www.linkedin.com/company/kancelarija-ite/" target="_blank">Linkedin</a>
+                </li>
+                <li class="ig"><a href="https://www.instagram.com/kancelarijaite/" target="_blank">Instagram</a></li>
+                <li class="fb"><a href="https://www.facebook.com/KancelarijaITE/" target="_blank">Facebook</a></li>
+                <li class="tw"><a href="https://twitter.com/kancelarijaITE" target="_blank">Twitter</a></li>
+                <li class="py"><a href="https://www.youtube.com/user/euprava" target="_blank">Play</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
